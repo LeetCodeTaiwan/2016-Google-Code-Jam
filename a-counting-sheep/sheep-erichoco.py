@@ -40,7 +40,7 @@ def solve(start_num):
         if not s:
             # print multi
             return num
-
+"""
 def test():
     insom = {}
     for i in range(100):
@@ -52,6 +52,7 @@ def test():
 
     for k, v in insom.iteritems():
         print(k, v)
+"""
 
 def main():
     # Test if at least input file is provided
@@ -154,5 +155,5 @@ def main():
         outputFile.close()
 
 if __name__=='__main__':
-    # main()
-    test()
+    main()
+    # test()
